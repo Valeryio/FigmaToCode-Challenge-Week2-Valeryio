@@ -1,0 +1,36 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+body > *
+{
+    max-width: 1320px;
+    margin: 16px auto;
+    //@include flex-positionning(start, center, column, wrap);
+}
+
+a
+{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #FF6F61;
+}
+
+button
+{
+    cursor: pointer;
+}

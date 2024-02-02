@@ -1,0 +1,17 @@
+@import "../utils/variables";
+
+.activeLink
+{
+    color: $dark;
+}
+
+.oldPrice
+{
+    text-decoration: line-through;
+}
+
+.newPrice
+{
+    color: $primary-orange;
+}
+

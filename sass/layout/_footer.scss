@@ -1,0 +1,129 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+footer
+{
+    min-width: 100%;
+    margin: 128px auto 0 auto;
+    //  border: 2px solid green;
+}
+
+.footerContent
+{
+    margin: 64px;
+    padding-top: 64px;
+    //  border: 1px solid crimson;
+    @include flex-positionning(space-between, start, column);
+
+    .siteInformations
+    {
+        //  border: 1px solid;
+        gap: 40px;
+        margin: auto;
+        @include flex-positionning(center);
+    }
+
+}
+
+.additionnalInformations
+{
+    height: 56px;
+    width: 100%;
+    padding: 0 112px;
+    background-color: $dark;
+    @include flex-positionning(space-between);
+}
+
+.siteInformations
+{
+
+    p
+    {
+        width:392px;
+        color: rgba(30, 40, 50, 0.75);
+        font-size: 16px;
+        font-family: Open Sans;
+        font-weight: 400;
+        text-transform: capitalize;
+        word-wrap: break-word
+    }
+
+    .footer__leftBloc
+    {
+        //  border: 1px solid;
+
+    }
+
+    .footer__rightBloc
+    {
+        gap: 112px;
+        @include flex-positionning(space-between)
+    }
+}
+
+.footer__leftBloc
+{
+    > *
+    {
+        margin-bottom: 24px;
+    }
+}
+
+
+.footer__rightBloc
+{
+    nav
+    {
+        gap: 8px;
+        //  border: 1px solid;
+        @include flex-positionning(space-between, start, column);
+    }
+}
+
+.footer__rightBloc nav
+{
+    h3
+    {
+        margin-bottom: 16px;
+    }
+
+    a
+    {
+        color: #1E2832;
+        font-size: 14px;
+        font-family: Open Sans;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 24px;
+        word-wrap: break-word
+    }
+}
+
+
+
+.additionnalInformations
+{
+
+    p
+    {
+        color: white;
+        font-size: 16px;
+        font-family: Open Sans;
+        font-weight: 400;
+        text-transform: capitalize;
+        word-wrap: break-word;
+    }
+
+    button
+    {
+        @include createButton(164px, 40px);
+        color: white;
+        font-size: 16px;
+        font-family: "Open Sans";
+        font-weight: 400;
+        padding: 0;
+        text-transform: capitalize;
+        word-wrap: break-word;
+        //  border: 1px solid white;
+    }
+}

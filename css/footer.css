@@ -1,0 +1,119 @@
+/*-----------------Dark Colors----------------*/
+/*-----------------Light Colors----------------*/
+/*-----------------Dark Colors----------------*/
+/*-----------------Light Colors----------------*/
+footer {
+  min-width: 100%;
+  margin: 128px auto 0 auto;
+}
+
+.footerContent {
+  margin: 64px;
+  padding-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.footerContent .siteInformations {
+  gap: 40px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.additionnalInformations {
+  height: 56px;
+  width: 100%;
+  padding: 0 112px;
+  background-color: #1E2832;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.siteInformations p {
+  width: 392px;
+  color: rgba(30, 40, 50, 0.75);
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 400;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+.siteInformations .footer__rightBloc {
+  gap: 112px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__leftBloc > * {
+  margin-bottom: 24px;
+}
+
+.footer__rightBloc nav {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.footer__rightBloc nav h3 {
+  margin-bottom: 16px;
+}
+.footer__rightBloc nav a {
+  color: #1E2832;
+  font-size: 14px;
+  font-family: Open Sans;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.additionnalInformations p {
+  color: white;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 400;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+.additionnalInformations button {
+  gap: 8px;
+  border: none;
+  width: 164px;
+  color: white;
+  height: 40px;
+  background: #1E2832;
+  padding: 16px;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 34px;
+  border-radius: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding: 0;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+
+/*# sourceMappingURL=footer.css.map */

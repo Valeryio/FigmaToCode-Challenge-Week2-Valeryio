@@ -1,0 +1,38 @@
+/*-----------------Dark Colors----------------*/
+/*-----------------Light Colors----------------*/
+/*-----------------Dark Colors----------------*/
+/*-----------------Light Colors----------------*/
+header .topBloc {
+  height: 59px;
+  margin: 0 0 30px 0;
+  border-bottom: 1px solid rgba(30, 40, 50, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topBloc .contactAndShopping, .topBloc .contactAndShopping div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.topBloc .contactAndShopping {
+  gap: 24px;
+}
+
+.contactAndShopping div {
+  gap: 8px;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,29 @@
+@import "../utils/variables";
+
+
+@mixin flex-positionning($justifyProperty: center,  $alignProperty: center, $direction: row, $wrapStatus: wrap)
+{
+    display: flex;
+    flex-wrap: $wrapStatus;
+    flex-direction: $direction;
+    justify-content: $justifyProperty;
+    align-items: $alignProperty;
+}
+
+
+@mixin createButton($width: 223px, $height: 72px, $bkg: $dark, $radius: 2px)
+{
+    gap: 8px;
+    border: none;
+    width: $width;
+    color: white;
+    height: $height;
+    background: $bkg;
+    padding: 16px;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 34px;
+
+    border-radius: $radius;
+    @include flex-positionning()
+}
